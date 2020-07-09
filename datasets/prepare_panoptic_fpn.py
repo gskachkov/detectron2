@@ -79,11 +79,11 @@ def separate_coco_semantic_from_panoptic(panoptic_json, panoptic_root, sem_seg_r
 
 if __name__ == "__main__":
     dataset_dir = os.path.join(os.path.dirname(__file__), "coco")
-    for s in ["val2017", "train2017"]:
+    for s in ["train"]:
         separate_coco_semantic_from_panoptic(
             os.path.join(dataset_dir, "annotations/panoptic_{}.json".format(s)),
-            os.path.join(dataset_dir, "panoptic_{}".format(s)),
-            os.path.join(dataset_dir, "panoptic_stuff_{}".format(s)),
+            os.path.join(dataset_dir, "annotations/panoptic_{}".format(s)),
+            os.path.join(dataset_dir, "annotations/panoptic_stuff_{}".format(s)),
             COCO_CATEGORIES,
         )
 
