@@ -5,5 +5,5 @@ MODEL:
   SEM_SEG_HEAD:
     LOSS_WEIGHT: 0.5
 DATASETS:
-  TRAIN: ("coco_2017_train_panoptic_separated",)
+  TRAIN: ("grapes_coco_train_separated",)
   TEST: ("coco_2017_val_panoptic_separated",)
