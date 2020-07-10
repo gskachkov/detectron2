@@ -30,7 +30,7 @@ MODEL:
     NUM_CONV: 4
     POOLER_RESOLUTION: 14
 DATASETS:
-  TRAIN: ("grape1_train",)
+  TRAIN: ("grapes_coco_train_separated",)
   TEST: ("grape1_test",)
 SOLVER:
   IMS_PER_BATCH: 16
