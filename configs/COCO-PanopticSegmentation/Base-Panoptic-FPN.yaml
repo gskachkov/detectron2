@@ -6,4 +6,4 @@ MODEL:
     LOSS_WEIGHT: 0.5
 DATASETS:
   TRAIN: ("grapes_coco_train_separated",)
-  TEST: ("coco_2017_val_panoptic_separated",)
+  TEST: ("grapes_coco_train_separated",)
