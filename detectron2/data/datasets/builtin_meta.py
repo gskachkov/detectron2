@@ -5,14 +5,14 @@
 # All coco categories, together with their nice-looking visualization colors
 # It's from https://github.com/cocodataset/panopticapi/blob/master/panoptic_coco_categories.json
 COCO_CATEGORIES = [
-    {"color": [220, 20, 60], "isthing": 1, "id": 1, "name": "person"},
-    {"color": [119, 11, 32], "isthing": 1, "id": 2, "name": "bicycle"},
-    {"color": [0, 0, 142], "isthing": 1, "id": 3, "name": "car"},
-    {"color": [0, 0, 230], "isthing": 1, "id": 4, "name": "motorcycle"},
-    {"color": [106, 0, 228], "isthing": 1, "id": 5, "name": "airplane"},
-    {"color": [0, 60, 100], "isthing": 1, "id": 6, "name": "bus"},
-    {"color": [0, 80, 100], "isthing": 1, "id": 7, "name": "train"},
-    {"color": [0, 0, 70], "isthing": 1, "id": 8, "name": "truck"},
+    {"color": [220, 20, 60], "isthing": 1, "id": 1, "name": "person2"},
+    {"color": [119, 11, 32], "isthing": 1, "id": 2, "name": "bicycle3"},
+    {"color": [0, 0, 142], "isthing": 1, "id": 3, "name": "car4"},
+    {"color": [0, 0, 230], "isthing": 1, "id": 4, "name": "motorcycle5"},
+    {"color": [106, 0, 228], "isthing": 1, "id": 5, "name": "airplane6"},
+    {"color": [0, 60, 100], "isthing": 1, "id": 6, "name": "bus7"},
+    {"color": [0, 80, 100], "isthing": 1, "id": 7, "name": "train8"},
+    {"color": [0, 0, 70], "isthing": 1, "id": 8, "name": "truck9"},
     {"color": [0, 0, 192], "isthing": 1, "id": 9, "name": "boat"},
     {"color": [250, 170, 30], "isthing": 1, "id": 10, "name": "traffic light"},
     {"color": [100, 170, 30], "isthing": 1, "id": 11, "name": "fire hydrant"},
